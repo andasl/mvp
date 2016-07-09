@@ -3,4 +3,28 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="default_divider_color">#888888</color>
+    <color name="default_grey_textcolor">#8e8e8e</color>
+    <color name="transparent_color">#00000000</color>
+    <!--白色-->
+    <color name="white_color">@android:color/white</color>
+
+    <!--默认的toolbar的背景颜色-->
+    <color name="toolbar_background">#00BCD4</color>
+    <!--默认的 accent color-->
+    <color name="default_accent_color">#FFC107</color>
+
+
+    <!--登录界面中使用到的相应的颜色值-->
+    <color name="login_button_bg_default">@color/toolbar_background</color>
+
+    <color name="login_button_indicator">@color/default_accent_color</color>
+
+    <color name="login_button_indicator_bg">@color/transparent_color</color>
+
+    <color name="login_button_bg_complete">#4caf50</color>
+
+    <color name="login_button_bg_error">#ff4081</color>
+
+
 </resources>

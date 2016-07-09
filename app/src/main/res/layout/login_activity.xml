@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context=".login.LoginActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="@dimen/thirty_dip"
+        android:orientation="vertical">
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/ten_dip">
+            <EditText
+                android:id="@+id/loginNameEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/eight_dip"
+                android:hint="@string/login_username"
+                android:textSize="@dimen/default_sp"
+                android:textColor="@color/default_grey_textcolor"
+                android:background="@color/transparent_color"/>
+        </android.support.design.widget.TextInputLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/one_dip"
+            android:layout_marginTop="@dimen/eight_dip"
+            android:background="@color/default_divider_color"/>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/twelve_dip">
+            <EditText
+                android:id="@+id/loginPassWordEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/eight_dip"
+                android:hint="@string/login_password"
+                android:textSize="@dimen/default_sp"
+                android:inputType="textPassword"
+                android:textColor="@color/default_grey_textcolor"
+                android:background="@color/transparent_color"/>
+        </android.support.design.widget.TextInputLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/one_dip"
+            android:layout_marginTop="@dimen/eight_dip"
+            android:background="@color/default_divider_color"/>
+
+        <com.dd.CircularProgressButton
+            android:id="@+id/loginButton"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/fifty_dip"
+            android:layout_marginTop="@dimen/thirty_dip"
+            android:textSize="@dimen/eighteen_sp"
+            android:textColor="@color/white_color"
+            app:cpb_textIdle="@string/login_sure"
+            app:cpb_selectorIdle="@color/login_button_bg_default"
+            app:cpb_colorIndicator="@color/login_button_indicator"
+            app:cpb_colorIndicatorBackground="@color/login_button_indicator_bg"
+            app:cpb_colorProgress="@color/transparent_color"
+            app:cpb_iconComplete="@mipmap/login_button_complete_icon"
+            app:cpb_selectorComplete="@color/login_button_bg_complete"
+            app:cpb_iconError="@mipmap/login_button_error_icon"
+            app:cpb_selectorError="@color/login_button_bg_error"/>
+
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center_horizontal"-->
+            <!--android:layout_marginTop="@dimen/thirty_dip"-->
+            <!--android:text="@string/login_introduce_one"-->
+            <!--android:textSize="@dimen/fifteen_sp"-->
+            <!--android:textColor="@color/default_grey_textcolor"/>-->
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/loginErrorTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="@dimen/ten_dip"
+        android:textSize="@dimen/fifteen_sp"
+        android:textColor="@color/default_grey_textcolor"
+        android:gravity="center"/>
+
+
+
+</LinearLayout>

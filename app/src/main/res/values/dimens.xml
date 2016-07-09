@@ -2,4 +2,77 @@
     <!-- Default screen margins, per the Android Design guidelines. -->
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+
+    <!--字体大小-->
+    <dimen name="twenty_sp">20sp</dimen>
+
+    <dimen name="eighteen_sp">18sp</dimen>
+
+    <dimen name="default_sp">17sp</dimen>
+
+    <dimen name="sixteen_sp">16sp</dimen>
+
+    <dimen name="fifteen_sp">15sp</dimen>
+
+    <dimen name="twelve_sp">12sp</dimen>
+
+    <dimen name="ten_sp">10sp</dimen>
+
+    <dimen name="thirty_two_sp">32sp</dimen>
+
+
+    <!--距离大小-->
+    <dimen name="zero_dip">0dip</dimen>
+
+    <dimen name="zero_point_five_dip">0.5dip</dimen>
+
+    <dimen name="one_dip">1dip</dimen>
+
+    <dimen name="two_dip">2dip</dimen>
+
+    <dimen name="three_dip">3dip</dimen>
+
+    <dimen name="five_dip">5dip</dimen>
+
+    <dimen name="eight_dip">8dip</dimen>
+
+    <dimen name="ten_dip">10dip</dimen>
+
+    <dimen name="twelve_dip">12dip</dimen>
+
+    <dimen name="sixteen_dip">16dip</dimen>
+
+    <dimen name="eighteen_dip">18dip</dimen>
+
+    <dimen name="twenty_four">24dip</dimen>
+
+    <dimen name="thirty_dip">30dip</dimen>
+
+    <dimen name="thirty_two_dip">32dip</dimen>
+
+    <dimen name="thirty_six_dip">36dip</dimen>
+
+    <dimen name="forty_dip">40dip</dimen>
+
+    <dimen name="forty_two_dip">42dip</dimen>
+
+    <dimen name="fifty_dip">50dip</dimen>
+
+    <dimen name="sixty_dip">60dip</dimen>
+
+    <dimen name="sixty_five_dip">65dip</dimen>
+
+    <dimen name="seventy_dip">70dip</dimen>
+
+    <dimen name="eighty_dip">80dip</dimen>
+
+    <dimen name="two_hundred_fifty_six">256dip</dimen>
+
+    <dimen name="one_hundred_nine_two">192dip</dimen>
+    <!--toolbar 中使用到的资源-->
+    <dimen name="toolbar_height">50dip</dimen>
+
+
 </resources>

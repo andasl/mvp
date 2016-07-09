@@ -3,9 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/BestMVP.iml" filepath="$PROJECT_DIR$/BestMVP.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/advancerecycleview/advancerecycleview.iml" filepath="$PROJECT_DIR$/advancerecycleview/advancerecycleview.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/mvp.iml" filepath="$PROJECT_DIR$/mvp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/restsdk/restsdk.iml" filepath="$PROJECT_DIR$/restsdk/restsdk.iml" />
     </modules>
   </component>
 </project>
